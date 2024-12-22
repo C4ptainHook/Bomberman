@@ -1,0 +1,74 @@
+{
+    "name": "SelectMaterial",
+    "maps": [
+        {
+            "name": "MaterialSelection",
+            "id": "7bd7a923-a95b-4a35-b346-e9ee5e6bcddd",
+            "actions": [
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "ab7a32ba-8611-47ff-b7ad-b6faf356d152",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Deselect",
+                    "type": "Button",
+                    "id": "6fe75b75-978c-4956-ad76-4ead651e7a69",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "WatchCursor",
+                    "type": "Value",
+                    "id": "6524ee97-9a58-4a97-a781-28c6b7923eb9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "036769ea-571a-4e97-996e-10f44bca240b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Tap,SlowTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d66c13cb-e8d0-4559-8073-b96b4a76fd16",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Deselect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e60eab3-10da-4e89-9d7f-d323bc791b42",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WatchCursor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e524b87c99126fc45b38c96447280e92, type: 3}
+  m_Name: DefaultIndestructible
+  m_EditorClassIdentifier: 
+  blockLayer: {fileID: 11400000, guid: 91509bf39aab964499a4be5d357de4a2, type: 2}
+  blockTile: {fileID: 11400000, guid: 59ca88507ea3b6e49aa9845f887dfdca, type: 2}
